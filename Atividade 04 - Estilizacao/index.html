@@ -14,7 +14,6 @@
     </script>
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
-
 </head>
 
 <body class="container">
@@ -30,22 +29,22 @@
     <div>
         <div class="input-group mb-3 space">
             <span class="input-group-text" id="basic-addon1">Nome do Filme</span>
-            <input type="text" class="form-control" aria-label="Nome do Filme" aria-describedby="basic-addon1" onchange="mudandoNome(event)"/>
+            <input type="text" class="form-control" aria-label="Nome do Filme" aria-describedby="basic-addon1"/>
         </div>
         <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon2">Ano de Lançamento</span>
-            <input type="text" class="form-control" aria-label="Data de Lançamento" aria-describedby="basic-addon2" onchange="mudandoNome(event)"/>
+            <input type="text" class="form-control" aria-label="Data de Lançamento" aria-describedby="basic-addon2"/>
         </div>
         <div class="input-group">
             <span class="input-group-text">Sinopse</span>
-            <textarea class="form-control" aria-label="Sinopse" onchange="mudandoNome(event)"></textarea>
+            <textarea class="form-control" aria-label="Sinopse"></textarea>
         </div>
         <div class="input-group mb-3 space">
             <label class="input-group-text" for="inputGroupFile01">Poster do Filme</label>
-            <input type="file" class="form-control" id="inputGroupFile01" accept=".png, .jpg, .jpeg" onchange="mudandoNome(event)"/>
+            <input type="file" class="form-control" id="inputGroupFile01" accept=".png, .jpg, .jpeg"/>
         </div>
         <div>
-            <button type="button" class="btn btn-dark" onclick="AddTableRow(event)">Enviar</button>
+            <button type="button" class="btn btn-dark">Enviar</button>
         </div>
         <div>
             <table class="table table-striped table-hover space">
@@ -89,8 +88,6 @@
             </table>
         </div>
     </div>
-        <!-- javascript -->
-        <script type="text/javascript"src="./script/script.js"></script>
 </body>
 
 </html>
