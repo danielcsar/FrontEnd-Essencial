@@ -1,0 +1,67 @@
+.navbar-custom {  
+  background-color: #40026C;
+  height: 80px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+}
+
+.bg-color-custom {
+  background-color: #40026C;
+}
+
+.bg-color-body {
+  background-color: #1e0132;
+}
+
+.text-custom {
+  color: #fff;
+}
+
+.search-custom {
+  width: 900px;
+}
+
+.bt-search-custom {
+  margin-right: 50px;
+  border-color: white;
+  color: white;
+}
+.bt-search-custom:hover,
+.bt-search-custom:focus{
+  background: #1e0132;
+  border-color: white;
+}
+
+.card-custom {
+  text-align: center;
+  margin: 0px;
+  background-color: #00467F;
+  background-image:
+     radial-gradient(ellipse farthest-corner at 80vw 15vh ,
+      rgba(64,2,108,1) 40%, rgba(0, 0, 0, 0.8) 60%
+  );
+  background-attachment:fixed;
+  border-radius: 25px;
+}
+
+.btn-dark:hover,
+.btn-dark:focus{
+  background: #1e0132;
+  transform: translateX(0) scale(1.4);
+}
+
+.btn-cliente {
+  align-self: center !important;
+  transition: transform 0.9s;
+  transform: translateX(0) scale(1.0);
+  display: inline-block;
+  width: 120px;
+  padding: 5px;
+  margin: 20px;
+  background-color: #40026c;
+  color: #fff;
+}
+
+.img-custom {
+  padding: 20px;
+}
